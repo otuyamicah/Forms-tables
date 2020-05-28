@@ -5,8 +5,9 @@
     <body>
         <h1 align="center">Barber Plan</h1>
         <hr>
-        <h3>Personal Infor</h3>
- <form>
+       
+ <fieldset>
+    <legend><h3>Personal Infor</h3></legend>
     <p>First Name:</p>
     <input type="text" placeholder="" required/>
 
@@ -24,12 +25,13 @@
 
 <p>Number:</p>
 <input type="tel" placeholder="+234......" required/>
- </form>
+ </fieldset>
 
 
-<h3>Payment Plan</h3>
-<form>
-    <input type="radio" name="types" value="1" />
+
+<fieldset>
+    <legend><h3>Payment Plan</h3></legend>
+<input type="radio" name="types" value="1" />
 <label>Basic</label>
 
 <input type="radio" name="types" value="1" />
@@ -47,19 +49,22 @@
 
 <p>Exp.Date</p>
 <input type="text" placeholder="19/05/1919" required/>
-</form>
+</fieldset>
 </br>
 
 
-<h3>Feedback Comments</h3>
-<textarea rows="4" cols="50" name="comment" form="usrform">Enter your comment here</textarea>
-</br><br />
+<fieldset>
+    <legend><h3>Feedback Comments</h3></legend>
+    <textarea rows="4" cols="50" name="comment" fieldset="usrform">Enter your comment here</textarea>
+    </br><br />
+    
+    <input type="checkbox" name="type" /> I accepts terms and conditions
+    <a href="C:\Users\DELL\OneDrive\Documents\barber form\terms & conditions.html" target="_blank">terms and conditions</a>
+    <br /><br />
+    
+    <a href="C:\Users\DELL\OneDrive\Documents\barber form\regpage.html" target="_blank"><button type="submit" class="reg.page">Register</button>
+    </fieldset>
 
-<input type="checkbox" name="type" /> I accepts terms and conditions
-<a href="C:\Users\DELL\OneDrive\Documents\barber form\terms & conditions.html" target="_blank">terms and conditions</a>
-<br /><br />
-
-<a href="C:\Users\DELL\OneDrive\Documents\barber form\regpage.html" target="_blank" button type="submit" class="reg.page">Register</button>
                              
 
  
